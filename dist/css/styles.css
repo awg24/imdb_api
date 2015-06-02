@@ -1,8 +1,54 @@
 .page{
 	display: none;
 }
-
+h1 {
+	text-align: center;
+	background: linear-gradient(rgb(99,99,99),rgb(14,14,14));
+	color: white;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 2px 2px 5px black;
+}
 .set-opacity {
 	opacity: 0.5;
 	transition: opacity .5s;
 }
+
+html {
+	background: #FBF99A;
+	font-family: Helvetica;
+}
+section {
+	margin-right: auto;
+	margin-left: auto;
+}
+#search {
+	background: linear-gradient(rgb(179,179,179),rgb(227,226,221));
+	width: 500px;
+	text-align: center;
+	box-shadow: 3px 3px 5px black;
+	font-size: 18px;
+	text-shadow: 2px 2px 2px white;
+
+}
+form {
+	margin-top: 15px;
+}
+#home {
+	text-align: center;
+	font-size: 18px;
+	text-shadow: 2px 2px 2px white;
+}
+button {
+	background: radial-gradient(rgb(255,255,182),rgb(227,183,30));
+	border: 1px solid black;
+	box-shadow: 1px 1px 1px black;
+	border-radius: 3px;
+}
+input {
+	box-shadow: 1px 1px 1px black;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+
