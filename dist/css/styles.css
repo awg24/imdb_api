@@ -1,0 +1,8 @@
+.page{
+	display: none;
+}
+
+.set-opacity {
+	opacity: 0.5;
+	transition: opacity .5s;
+}

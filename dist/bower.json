@@ -1,0 +1,19 @@
+{
+  "name": "clas_example",
+  "version": "0.0.0",
+  "authors": [
+    "allen wes <allen.wes.g@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.2.0",
+    "jquery": "~2.1.4"
+  }
+}
