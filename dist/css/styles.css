@@ -10,6 +10,12 @@ h1 {
 	margin-left: auto;
 	box-shadow: 2px 2px 5px black;
 }
+#go-to-watch-list {
+	margin-right: auto;
+	margin-left: auto;
+	height:35px;
+	margin-bottom: 15px;
+}
 .set-opacity {
 	opacity: 0.5;
 	transition: opacity .5s;
@@ -18,6 +24,17 @@ h1 {
 html {
 	background: #FBF99A;
 	font-family: Helvetica;
+}
+#watch-list {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-bottom: 15px;
+}
+#back {
+	margin-right: auto;
+	margin-left: auto;
+	height: 40px;
 }
 section {
 	margin-right: auto;
@@ -32,6 +49,22 @@ section {
 	text-shadow: 2px 2px 2px white;
 
 }
+#the-movie-list {
+	background: linear-gradient(rgb(179,179,179),rgb(227,226,221));
+	margin-right: auto;
+	margin-left: auto;
+	width: 500px;
+	text-align: center;
+	box-shadow: 3px 3px 5px black;
+	font-size: 18px;
+	text-shadow: 2px 2px 2px white;
+	padding-top: 15px;
+}
+#show-results div:hover {
+	background: black;
+	color: white;
+	text-shadow: none;
+}
 form {
 	margin-top: 15px;
 }
@@ -45,10 +78,16 @@ button {
 	border: 1px solid black;
 	box-shadow: 1px 1px 1px black;
 	border-radius: 3px;
+	height: 25px;
+	width: 60px;
 }
 input {
+	height: 30px;
+	width: 300px;
+	font-size: 20px;
 	box-shadow: 1px 1px 1px black;
 	border: 1px solid black;
 	border-radius: 3px;
+	margin-top: 15px;
 }
 
