@@ -19,7 +19,7 @@ $(document).ready(function(){
 		home: function(){
 			$(".page").hide();
 			var $title = $("#title");
-			$title.html("IMDB movie search");
+			$title.html("IMDb movie search");
 			$("#movie-search").val("");
 			$("#home").show();
 		},
@@ -75,7 +75,7 @@ $(document).ready(function(){
 	function onReceivedMovies(movies){
 		var html = "";
 		var $title = $("#title");
-		$title.html("IMDB movie search");
+		$title.html("IMDb movie search");
 		var checkArray = [];
 
 		if(myClickedMovies.length !== 0){
